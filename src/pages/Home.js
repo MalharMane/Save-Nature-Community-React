@@ -38,7 +38,7 @@ function Home() {
     document.getElementById("events-section").scrollIntoView({ behavior: "smooth" });
   }}
 >
-  🌍 Upcoming Event: World Environment Day  5 June 2025
+  🌍 Upcoming Event: World Environment Day   June 2025
 </Button>
 
 
