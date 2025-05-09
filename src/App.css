@@ -1,0 +1,49 @@
+section {
+  transition: all 0.3s ease;
+}
+
+section:hover {
+  opacity: 0.98;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+img {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+.blinking-btn {
+  animation: pulseGreen 2s infinite;
+  background-color: #c8e6c9 !important; /* Light green background */
+  color: #1b5e20; /* Darker green text */
+  border: 2px solid #81c784;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 0 rgba(27, 94, 32, 0.8); /* Stronger initial shadow */
+  transition: all 0.1s ease-in-out;
+}
+
+@keyframes pulseGreen {
+  0% {
+    box-shadow: 0 0 0 0 hsla(106, 84%, 76%, 0.8); /* Darker green glow */
+  }
+  70% {
+    box-shadow: 0 0 0 18px rgba(204, 236, 21, 0); /* Larger and darker pulse */
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(191, 238, 22, 0);
+  }
+}
+
+
+
+
+
