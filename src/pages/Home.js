@@ -33,12 +33,12 @@ function Home() {
         <Button
   variant="light"
   className="fw-bold blinking-btn mx-auto d-block"
-  style={{ maxWidth: "250px" }}
+  style={{ maxWidth: "260px" }}
   onClick={() => {
     document.getElementById("events-section").scrollIntoView({ behavior: "smooth" });
   }}
 >
-  🌍 Upcoming Event: World Environment Day   June 2025
+  🌍 Upcoming Event: World Environment Day  5 June 2025
 </Button>
 
 
