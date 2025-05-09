@@ -33,7 +33,7 @@ function Home() {
         <Button
   variant="light"
   className="fw-bold blinking-btn mx-auto d-block"
-  style={{ maxWidth: "230px" }}
+  style={{ maxWidth: "250px" }}
   onClick={() => {
     document.getElementById("events-section").scrollIntoView({ behavior: "smooth" });
   }}
